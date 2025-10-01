@@ -1,11 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>svg</title>
-</head>
-<body>
-    <img src="new_img.svg" alt="SVG Image">
-</body>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Saturn Over the Skyline</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+     <!-- First section: Skyline -->
+     <div class="section">
+      <div class="story-text">
+        <h1>Imagine Saturn as close as the moon...</h1>
+        <p>
+          Witness the impossible: Earth's most magnificent neighbor, close enough to cast 
+          its ethereal shadows across our city streets.
+        </p>
+      </div>
+      <img class="bottom-stretch-image" src="img/dubai-sky-line.png" alt="Dubai Skyline" />
+    </div>
+
+    <!-- Second section: Saturn rises -->
+    <div class="section space-section">
+      <img id="saturn" src="img/saturn.png" alt="Saturn" />
+      <div class="story-text">
+        <h2>Click anywhere to reveal...</h2>
+        <p>
+          Saturn appears above the horizon, giving the city a surreal glow.
+        </p>
+      </div>
+    </div>
+
+     <!-- Third section: combines -->
+    <div class="section combined">
+      <img class="bottom-stretch-image" src="img/new_img.png" alt="Saturn merging with a futuristic city skyline" />
+      <div class="story-text">
+          <h2>They Have Come Together</h2>
+          <p>
+              Towering skyscrapers blend seamlessly into the cosmic expanse as Saturn's rings weave through the city's skyline.
+              The boundary between Earth and the celestial realm dissolves, creating a breathtaking fusion of urban life and the infinite universe.
+          </p>
+      </div>
+  </div>
+
+    <script src="script.js"></script>
+  </body>
 </html>
